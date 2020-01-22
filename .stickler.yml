@@ -1,4 +1,7 @@
 ---
 linters:
-    csslint:
+    csslint: { }
+files:
+  ignore:
+    - 'bower_components/*'
 

@@ -14,9 +14,9 @@ body {
 }
 
 .signin-info p {
-    margin: 0;
     color: #0077c5;
     font-size: 12px;
+    margin: 0;
 }
 
 .signin-info p:first-child {
@@ -151,6 +151,7 @@ form {
 
 /* cp am 3 */
 
+
 /* .lock {
     background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png) no-repeat 0 50%/21px 21px;
     height: 44.1em;
@@ -179,7 +180,6 @@ form {
     background-repeat: no-repeat;
     background-size: 21px;
     background-position: right;
-
 }
 
 cite {
