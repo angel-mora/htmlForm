@@ -66,8 +66,6 @@ footer div.terms p {
   width: 0.8em;
 }
 
-/* cp ak 2 */
-
 .main-content {
   display: flex;
   justify-content: center;
@@ -87,8 +85,6 @@ footer div.terms p {
 }
 
 .logo-icons-section {
-  /* margin: auto;
-    position: fixed; */
   height: 30px;
   width: 300px;
 }
@@ -150,8 +146,6 @@ form {
   width: 320px;
 }
 
-/* cp am 3 */
-
 .form-input img {
   height: 21px;
   width: 21px;
@@ -193,8 +187,6 @@ cite {
 span {
   color: #0077c5;
 }
-
-/* cp ak 4 */
 
 .form-footer {
   background: #eceef1;
