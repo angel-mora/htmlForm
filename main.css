@@ -58,9 +58,9 @@ body {
 
 /* cp ak 2 */
 
-
 .main-content {
-    margin: auto;
+    /*margin: auto;*/
+    width: 300px;
     padding-bottom: 4em;
 }
 
@@ -76,10 +76,15 @@ body {
     margin: auto;
 }
 
+.logo-icons-section {
+    margin: auto;
+    position: fixed;
+    height: 30px;
+    width: 300px;
+}
+
 .logo-icons-section img {
-    position: absolute;
-    width: 18%;
-    right: 65em;
+    width: inherit;
 }
 
 .form-body {
@@ -107,7 +112,6 @@ form {
 .form-header {
     padding-bottom: 3em;
 }
-
 
 .form-header p:nth-of-type(1) {
     margin-bottom: 0;
@@ -143,6 +147,7 @@ form {
     padding: .4em 0 .4em .2em;
 }
 
+
 /* cp am 3 */
 
 .lock {
@@ -172,8 +177,8 @@ span {
     color: #0077c5;
 }
 
-/* cp ak 4 */
 
+/* cp ak 4 */
 
 .form-footer {
     background: #eceef1;
@@ -231,5 +236,6 @@ footer button {
     color: #fff;
     border-radius: .5em;
 }
+
 
 /* cp am 5 */
