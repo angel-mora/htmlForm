@@ -76,10 +76,15 @@ body {
     margin: auto;
 }
 
+.logo-icons-section {
+    display: flex;
+    justify-content: center;
+
+}
+
 .logo-icons-section img {
-    position: absolute;
-    width: 18%;
-    right: 65em;
+    height: 20px;
+    width: 250px;
 }
 
 .form-body {
@@ -145,12 +150,17 @@ form {
 
 /* cp am 3 */
 
-.lock {
+/* .lock {
     background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png) no-repeat 0 50%/21px 21px;
     height: 44.1em;
     position: absolute;
     width: 68em;
-    right: 10px;
+    right: 10px; 
+} */
+
+.form-input img {
+    height: 21px;
+    width: 21px;
 }
 
 .form-input button {
@@ -161,6 +171,13 @@ form {
     color: #ffffff;
     border-radius: 0.4em;
     font-size: 15.79px;
+}
+
+#password {
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png);
+    background-repeat: no-repeat;
+    background-size: 21px;
+    background-position: right;
 }
 
 cite {
