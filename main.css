@@ -58,9 +58,9 @@ body {
 
 /* cp ak 2 */
 
-
 .main-content {
-    margin: auto;
+    /*margin: auto;*/
+    width: 300px;
     padding-bottom: 4em;
 }
 
@@ -77,6 +77,7 @@ body {
 }
 
 .logo-icons-section {
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
 
@@ -85,6 +86,16 @@ body {
 .logo-icons-section img {
     height: 20px;
     width: 250px;
+=======
+    margin: auto;
+    position: fixed;
+    height: 30px;
+    width: 300px;
+}
+
+.logo-icons-section img {
+    width: inherit;
+>>>>>>> 01c8025b4af23affad03af56cc0ae392b087e29b
 }
 
 .form-body {
@@ -112,7 +123,6 @@ form {
 .form-header {
     padding-bottom: 3em;
 }
-
 
 .form-header p:nth-of-type(1) {
     margin-bottom: 0;
@@ -147,6 +157,7 @@ form {
     font-size: 10px;
     padding: .4em 0 .4em .2em;
 }
+
 
 /* cp am 3 */
 
@@ -189,8 +200,8 @@ span {
     color: #0077c5;
 }
 
-/* cp ak 4 */
 
+/* cp ak 4 */
 
 .form-footer {
     background: #eceef1;
@@ -248,5 +259,6 @@ footer button {
     color: #fff;
     border-radius: .5em;
 }
+
 
 /* cp am 5 */
