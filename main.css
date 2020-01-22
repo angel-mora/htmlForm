@@ -60,12 +60,13 @@ body {
 
 .main-content {
     /*margin: auto;*/
-    width: 300px;
-    padding-bottom: 4em;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 1em 0;
 }
 
 .logos-section {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .logo {
@@ -77,25 +78,14 @@ body {
 }
 
 .logo-icons-section {
-<<<<<<< HEAD
-    display: flex;
-    justify-content: center;
-
-}
-
-.logo-icons-section img {
-    height: 20px;
-    width: 250px;
-=======
-    margin: auto;
-    position: fixed;
+    /* margin: auto;
+    position: fixed; */
     height: 30px;
     width: 300px;
 }
 
 .logo-icons-section img {
     width: inherit;
->>>>>>> 01c8025b4af23affad03af56cc0ae392b087e29b
 }
 
 .form-body {
@@ -189,6 +179,7 @@ form {
     background-repeat: no-repeat;
     background-size: 21px;
     background-position: right;
+
 }
 
 cite {
